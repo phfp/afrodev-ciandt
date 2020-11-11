@@ -5,11 +5,11 @@ package Aula7;
 // *** Aumentando as Threads: Para cada Thread a mais do que a capacidade da Poll, é feita uma execução extra, isso pq é usado "do while"
 // que executa ante para depois fazer a verificacao. Com somente "While" o programa volta com o comportamento esperado.
 // *** Aumentando o newFixedThreadPool() e Threads: Eu esperava o comportamento normal do programa, mas a saída não segue a sequencia.
-// Não consegui explicar o motivo.
-// *** Aumentando o newFixedThreadPool() e Threads e numero de iteracoes de SafelockDemo.getCount(): Comportamento continua anormal
+// Não consegui entender o motivo.
+// *** Aumentando o newFixedThreadPool(), Threads e numero de iteracoes de SafelockDemo.getCount(): Comportamento continua anormal
 // *** Diminuir o número de iteracoes de afelockDemo.getCount() para 2: Resultado aleatorio, cada tread é executada uma vez.
 // Não consegui entender tambem.
-// Obs.: inclui um pool.shutdown() ao final pois o programa nao terminava a execuçãoa.
+// Obs.: inclui um pool.shutdown() ao final pois o programza nao terminava a execuçãoa.
 
 
 import java.util.concurrent.ExecutorService;
