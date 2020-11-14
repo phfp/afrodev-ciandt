@@ -4,3 +4,5 @@ invoicedata
 src/Aula5/CopiaImagem/imgCopia.jpg
 .vscode/launch.json
 objeto
+.vscode/settings.json
+.gitignore

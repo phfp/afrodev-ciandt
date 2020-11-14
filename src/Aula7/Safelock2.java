@@ -28,10 +28,11 @@ public class Safelock2 implements Runnable{
     }
 
     public static void main(String[] args) {
-        ExecutorService pool = Executors.newFixedThreadPool(2);
+        ExecutorService pool = Executors.newFixedThreadPool(4);
+        pool.execute(new Safelock2());
+        pool.execute(new Safelock2());
         pool.execute(new Safelock2());
         pool.execute(new Safelock2());
         pool.shutdown();
-    }
-    
+    }    
 }
